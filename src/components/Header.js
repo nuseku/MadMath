@@ -11,9 +11,9 @@ const Header = () => {
             </a>
             <Link to="/"><h1 className="appname">Budget Tracker</h1></Link>
                 <div className="links">
-                    <Link to="/home">Home</Link>
+                    <Link to="/Home">Home</Link>
                     <Link to="/Homework">Homework</Link>
-                    <Link to="/rewards">Rewards</Link>
+                    <Link to="/Rewards">Rewards</Link>
                 </div>
         </div>
     )
