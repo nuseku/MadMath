@@ -4,7 +4,7 @@ import './Home.css'
 const Home = () =>{
     return(
         <div className = "main-container">
-            <a href='google.com'> google </a>
+            <a href='https://www.google.com'> google </a>
         </div>
     )
 }
