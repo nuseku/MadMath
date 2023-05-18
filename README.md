@@ -1,2 +1,2 @@
-# CafeSefToad
-Summer 2023 banger cafe
+# MadMath
+Website made for Nuray Kutlu's math students.
