@@ -1,6 +1,9 @@
 # MadMath
 Website made for Nuray Kutlu's math students.
 
+Created repository on GitHub and used npx extension for a template.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
