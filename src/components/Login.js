@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
+import database from './database'
 import './Login.css'
 
 const Login = () => {
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const database = [
-    {
-      username: "nuray",
-      password: "miktad"
-    }
-  ];
 
   const errors = {
     uname: "Invalid Username",
