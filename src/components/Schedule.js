@@ -14,7 +14,7 @@ const Schedule = () => {
             <div className="title-left">
               Your schedule for the upcoming m,nth
             </div>
-            <div className="body-left">YJune, 2022:</div>
+            <div className="body-left"></div>
           </div>
         </div>
       </div>
