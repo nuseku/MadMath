@@ -35,9 +35,23 @@ const Home = () => {
         <Header />
       </div>
       <div className="welcome">
-        <div className="classes"></div>
-        <div className="to-do"></div>
-        <div className="schedule"></div>
+        <div className="section">
+          <div className="title-left">Hello NAME,</div>
+          <div className="body-left">
+            Your current classes are: MATH1 and MATH2
+          </div>
+        </div>
+        <hr></hr>
+        <div className="section">
+          <div className="title-left">To-Do:</div>
+          <div className="to-do-list"></div>
+        </div>
+        <hr></hr>
+        <div className="section">
+          <div className="title-left">Upcoming Classes:</div>
+          <div className="schedule-list"></div>
+        </div>
+        <hr></hr>
       </div>
     </div>
   );
