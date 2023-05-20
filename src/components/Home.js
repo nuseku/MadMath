@@ -34,7 +34,7 @@ const Home = () => {
       <div className="header">
         <Header />
       </div>
-      <div className="welcome">
+      <div className="sub-container">
         <div className="section">
           <div className="title-left">Hello NAME,</div>
           <div className="body-left">
@@ -44,12 +44,14 @@ const Home = () => {
         <hr></hr>
         <div className="section">
           <div className="title-left">To-Do:</div>
-          <div className="to-do-list"></div>
+          <div className="body-left">You have no to-do's!</div>
         </div>
         <hr></hr>
         <div className="section">
           <div className="title-left">Upcoming Classes:</div>
-          <div className="schedule-list"></div>
+          <div className="body-left">
+            Your next class is scheduled for: <b>Monday, June 10.</b>
+          </div>
         </div>
         <hr></hr>
       </div>
@@ -58,9 +60,7 @@ const Home = () => {
 };
 
 export default Home;
-
-{
-  /* <div className="form_2">
+/* <div className="form_2">
           <form onSubmit={handleSubmit}>
             <div className="input-container">
               <label>Full Name</label>
@@ -87,4 +87,3 @@ export default Home;
             </div>
           </form>
         </div> */
-}

@@ -8,8 +8,13 @@ const Homework = () => {
       <div className="header">
         <Header />
       </div>
-      <div className="title">
-        <p>Homework Page</p>
+      <div className="sub-container">
+        <div className="section">
+          <div className="title-left">Welcome to your Homework Page,</div>
+          <div className="body-left">
+            You are all caught up with your assignemnts... Good work!
+          </div>
+        </div>
       </div>
     </div>
   );

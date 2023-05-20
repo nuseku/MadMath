@@ -4,7 +4,9 @@
   font-size: 30px;
 }
 
-.title {
+.sub-container {
   margin-top: 100px;
   padding: 20px;
+  width: 100vw;
+  height: 100vh;
 }
