@@ -1,15 +1,41 @@
-.main-container{
-    background-color: rgb(28, 180, 186);
-    font-size: 12;
-    display: flex;
-    flex-direction: column;
+.main-container {
+  background-color: #f0f0f0;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
-.header{
-    width: 100%;;
-    margin: 0;
+.header {
+  position: fixed;
+  width: 100%;
+  margin: 0;
 }
 
-.welcome{
-    padding: 20px;
+.welcome {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.form_2 {
+  box-shadow: 4px 4px 10px 6px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: 5px dashed #2c71ae;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
 }

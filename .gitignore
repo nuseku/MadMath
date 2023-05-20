@@ -155,3 +155,6 @@ yarn-error.log*
 
 # Ignore username and password database
 database.js
+
+# Ignore server file
+server.js
