@@ -1,5 +1,10 @@
-.main-container{
-    display: flex;
-    align-items: center;
-    font-size: 30px;
+.main-container {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.title {
+  margin-top: 100px;
+  padding: 20px;
 }

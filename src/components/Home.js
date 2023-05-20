@@ -35,7 +35,18 @@ const Home = () => {
         <Header />
       </div>
       <div className="welcome">
-        <div className="form_2">
+        <div className="classes"></div>
+        <div className="to-do"></div>
+        <div className="schedule"></div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
+
+{
+  /* <div className="form_2">
           <form onSubmit={handleSubmit}>
             <div className="input-container">
               <label>Full Name</label>
@@ -61,10 +72,5 @@ const Home = () => {
               <input type="submit" />
             </div>
           </form>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Home;
+        </div> */
+}
