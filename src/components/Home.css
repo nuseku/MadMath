@@ -22,7 +22,7 @@
 }
 
 .section {
-  background-color: rgb(255, 250, 216);
+  background-color: rgb(255, 255, 225);
   margin-right: auto;
   width: 100%;
   box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2),
@@ -46,6 +46,7 @@
   font-size: 25px;
   font-family: "Trebuchet MS", sans-serif;
   text-align: left;
+  padding-right: 20px;
 }
 
 hr {

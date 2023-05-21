@@ -12,7 +12,7 @@ const Homework = () => {
         <div className="section">
           <div className="title-left">Welcome to your Homework Page,</div>
           <div className="body-left">
-            You are all caught up with your assignemnts... Good work!
+            You are all caught up with your assignments... Good work!
           </div>
         </div>
       </div>
