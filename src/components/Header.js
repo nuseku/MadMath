@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       <div className="webTitle">
         <Link to="/home">
-          <p className="appname">MadMath</p>
+          <p className="appname">Luna Math</p>
         </Link>
       </div>
       <div className="links">
