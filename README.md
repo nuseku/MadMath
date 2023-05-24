@@ -8,6 +8,8 @@ Tool for setting up server-side backend connection (npm install express pg pg-pr
 
 To run client side server = "node server.js".
 
+React calendar library: npm install react-calendar.
+
 # SQL Syntax
 
 Create Table:
