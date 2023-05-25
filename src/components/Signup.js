@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import database from "./database";
 import "./Signup.css";
 
 function Signup() {
@@ -45,7 +47,7 @@ function Signup() {
         // Handle any errors that occur during the request
         console.error("Error:", error);
       });
-
+    database.push(uname.value, pass.value);
     setIsSubmitted(true);
     console.log("User created account successfully!");
   };
@@ -88,6 +90,11 @@ function Signup() {
         <div className="title">Sign Up</div>
         {isSubmitted ? <Navigate to="/home" /> : renderForm}
       </div>
+      <Link to="/">
+        <p className="signup-paragraph">
+          Already have an account? <span className="join-now">Sign in</span>
+        </p>
+      </Link>
     </div>
   );
 }
