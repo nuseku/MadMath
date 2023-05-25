@@ -1,0 +1,21 @@
+Label {
+  margin-top: 7px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.signup-input-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 8px;
+  margin: 10px;
+}
+
+.signup-paragraph {
+  margin-top: auto;
+  color: black;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.join-now {
+  color: #27374d;
+}

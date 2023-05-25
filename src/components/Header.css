@@ -36,7 +36,7 @@
 }
 
 .appname {
-  font-size: 80px;
+  font-size: 2em;
   font-family: "Trebuchet MS", sans-serif;
 }
 
@@ -44,5 +44,5 @@ a {
   margin: 0 20px;
   text-decoration: none;
   color: white;
-  font-size: 35px;
+  font-size: 1em;
 }

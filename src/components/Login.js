@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import database from "./database";
 import "./Login.css";
 
@@ -20,24 +21,6 @@ const Login = () => {
 
     // Find user login info
     const userData = database.find((user) => user.username === uname.value);
-
-    //Send to Database
-    fetch("http://localhost:5001/api/users", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ username: uname.value, password: pass.value }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        // Handle the response from the server
-        console.log("Data sent successfully:", data);
-      })
-      .catch((error) => {
-        // Handle any errors that occur during the request
-        console.error("Error:", error);
-      });
 
     // Compare user info
     if (userData) {
@@ -86,6 +69,13 @@ const Login = () => {
       <div className="login-form">
         <div className="title">Sign In</div>
         {isSubmitted ? <Navigate to="/home" /> : renderForm}
+      </div>
+      <div className="signup-container">
+        <Link to="/signup">
+          <p className="signup-paragraph">
+            New to Luna Math? <span className="join-now">Join now</span>
+          </p>
+        </Link>
       </div>
     </div>
   );
