@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
-import database from './database'
-import './Login.css'
+import database from "./database";
+import "./Login.css";
 
 const Login = () => {
   const [errorMessages, setErrorMessages] = useState({});
@@ -9,17 +9,35 @@ const Login = () => {
 
   const errors = {
     uname: "Invalid Username",
-    pass: "Invalid Password"
+    pass: "Invalid Password",
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     //Prevent page reload
     event.preventDefault();
 
-    var { uname, pass } = document.forms[0];
+    const { uname, pass } = event.target.elements;
 
     // Find user login info
     const userData = database.find((user) => user.username === uname.value);
+
+    //Send to Database
+    fetch("http://localhost:5001/api/users", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ username: uname.value, password: pass.value }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        // Handle the response from the server
+        console.log("Data sent successfully:", data);
+      })
+      .catch((error) => {
+        // Handle any errors that occur during the request
+        console.error("Error:", error);
+      });
 
     // Compare user info
     if (userData) {
@@ -28,6 +46,7 @@ const Login = () => {
         setErrorMessages({ name: "pass", message: errors.pass });
       } else {
         setIsSubmitted(true);
+        console.log("User logged in successfully!");
       }
     } else {
       // Username not found
@@ -66,10 +85,10 @@ const Login = () => {
     <div className="app">
       <div className="login-form">
         <div className="title">Sign In</div>
-        {isSubmitted ? <Navigate to="/home"/> : renderForm}
+        {isSubmitted ? <Navigate to="/home" /> : renderForm}
       </div>
     </div>
   );
-}
+};
 
-export default Login
+export default Login;

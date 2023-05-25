@@ -21,7 +21,7 @@
 }
 
 .logo {
-  outline: 5px solid #000000;
+  outline: 4px solid #000000;
   margin-top: 10px;
   width: 100px;
 }
@@ -44,6 +44,5 @@ a {
   margin: 0 20px;
   text-decoration: none;
   color: white;
-  font-weight: 100;
   font-size: 35px;
 }
