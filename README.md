@@ -5,7 +5,7 @@ Webste is currently being updated!
 ...switching database from postgreSQL to mongoDB
 ...improving UX for login
 ...adding functionality to schedule classes
-Stay Tuned!
+...Stay Tuned!
 
 Created repository on GitHub and used npx extension for a template (npx create-react-app my-app).
 Tool for setting up server-side backend connection (npm install express pg pg-promise).
