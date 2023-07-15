@@ -1,14 +1,14 @@
-# MadMath (Rebranded to Luna Math?)
+# MadMath
 
 Personal Project of Miktad Cakmak and Nuray Kutlu (Summer 2023)
 
 Website made for Nuray Kutlu's math students.
 Webste is currently being updated! 
-...Implementing a functional backend database using postgreSQL.
-...Working on using user credentials stored in database table to validate login.
-...Adding functionality to schedule classes.
-...Future goal of allowing the website to be accessed by the internet.
-...Stay Tuned!
+*Implementing a functional backend database using postgreSQL.
+*Working on using user credentials stored in database table to validate login.
+*Adding functionality to schedule classes.
+*Future goal of allowing the website to be accessed by the internet.
+*Stay Tuned!
 
 To run this website locally: clone the repository, cd into directory, enter 'npm run start' in terminal!
 
