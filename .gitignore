@@ -154,7 +154,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore username and password database
-database.js
+#database.js
 
 # Ignore server file
 server.js
