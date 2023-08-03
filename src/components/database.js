@@ -5,13 +5,6 @@
 
 // const { Pool } = require("pg");
 
-// const pool = new Pool({
-//   host: "localhost",
-//   user: "postgres",
-//   password: "Phone2259731.",
-//   database: "lunamathdb",
-//   port: 5432,
-// });
 
 // module.exports = pool;
 
