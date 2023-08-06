@@ -2,6 +2,9 @@
 
 Personal Project of Miktad Cakmak and Nuray Kutlu (Summer 2023)
 
+Visit us at "https://tutor-site-beta.vercel.app" to see current state!
+Click "Join Now" to create new account or type /home at the end of the URL.
+
 Website made for Nuray Kutlu's math students.
 Webste is currently being updated! 
 * Implementing a functional backend database using postgreSQL.
